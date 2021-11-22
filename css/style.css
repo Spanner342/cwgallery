@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 42px;
+}
+
+.glist {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+.gelement {
+    padding: 1%;
+    width: 20%;
+}
+
+.gelement img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.gelement img:hover {
+    opacity: 0.8;
+}
+
+.active {
+    text-align: center;
+    display: block;
+    position: relative;
+}
+
+.active img {
+    width: 80%;
+}
+
+.gshow {
+    display: none;
+}
+
+.cbtn {
+    position: absolute;
+    top: -7px;
+    right: 11%;
+    background-image: url(/images/delete.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+#imgname {
+    padding: 5px 10px;
+    text-align: start;
+    position: absolute;
+    bottom: 4px;
+    left: 10%;
+    font-size: 24px;
+    color: white;
+    width: 30%;
+    height: 20px;
+}
+
